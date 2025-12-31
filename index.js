@@ -26,7 +26,7 @@ const sequelize = new Sequelize(
 );
 
 // ✅ Modelo Sequelize para certificaciones
-const Certificacion = sequelize.define('Instituto', {
+const Certificacion = sequelize.define('instituto', {
   codigo: {
     type: DataTypes.STRING,
     primaryKey: true
